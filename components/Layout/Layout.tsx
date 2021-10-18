@@ -11,7 +11,7 @@ export const Layout = memo<LayoutProps>(({ children }) => {
       <main className={styles.main}>{children}</main>
 
       <footer className={styles.footer}>
-        <p>Website By SimiCoder</p>
+        <p>SimiCoder</p>
       </footer>
     </div>
   );
