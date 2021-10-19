@@ -1,0 +1,47 @@
+@import '_mixins';
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage {
+  object-fit: cover;
+  display: block;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10px;
+
+  @include mediaquery('sm') {
+    margin-left: 200px;
+  }
+}
+
+.lp {
+  background-color: rgb(91, 146, 247);
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: white;
+
+  @include mediaquery('sm') {
+    margin-left: 120px;
+  }
+}
+
+.rp {
+  background-color: rgb(42, 12, 82);
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: white;
+
+  @include mediaquery('sm') {
+    width: 70%;
+  }
+}
