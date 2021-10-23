@@ -5,12 +5,7 @@
 }
 
 .imgContainer {
-  height: 138px;
-
-  @include mediaquery('sm') {
-    height: 352px;
-  }
-
+  font-size: 0;
   border: 1px solid rgb(82, 82, 82);
 }
 
