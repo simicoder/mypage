@@ -7,9 +7,11 @@ export const Links = memo(() => {
   return (
     <ul className={styles.list}>
       <LinkItem title="@SimiCoder" href="/" />
-      <a className={stylesLink.link} href="#Projects">
-        Projects
-      </a>
+      <li className={stylesLink.item}>
+        <a className={stylesLink.link} href="#Projects">
+          Projects
+        </a>
+      </li>
     </ul>
   );
 });
