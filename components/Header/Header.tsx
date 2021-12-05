@@ -27,8 +27,8 @@ export const Header = memo(({ children }) => {
       </div>
 
       <div className={styles.textWrapper}>
-        <p className={styles.lp}>I`m Simon Popielarz</p>
-        <p className={styles.rp}>I`m a Software Developer</p>
+        <p className={styles.lp}>I{"'"}m Simon Popielarz</p>
+        <p className={styles.rp}>I{"'"}m a Software Developer</p>
       </div>
     </header>
   );
