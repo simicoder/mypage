@@ -38,7 +38,7 @@ export const Project = ({ name, href, ghHref }: ProjectProps) => {
 
           <div className={styles.ghImageContainer}>
             <Link passHref href={ghHref}>
-              <Image src={`/images/github.png`} alt={name + ' logo'} width="40" height="40" />
+              <Image src={`/images/github.svg`} alt={name + ' logo'} width="40" height="40" />
             </Link>
 
             <Link passHref href={href}>
