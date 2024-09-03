@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
     </Layout>
   );
 };
